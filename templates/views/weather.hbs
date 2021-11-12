@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+    {{>head}}
+    <body>
+        {{>navbar}}
+        <section class='weather-page'>
+            <div class='weather-container'>
+                <div class='input-container'>
+                    <input type='text' placeholder='Enter your city name...' />
+                    <button class='search-btn'>Search</button>
+                </div>
+                <div class='weather-output'>
+                    <div class='date-wrapper'>
+                        <p class='day'></p>
+                        <p class='date'></p>
+                    </div>
+                    <div class='temp-wrapper'>
+                        <div class='city'>Get output here</div>
+                        <div class='temp-and-icon'>
+                            <div class='temp'></div>
+                            <div class='temp-icon'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{>footer}}
+        <script src='js/index.js'></script>
+    </body>
+</html>
